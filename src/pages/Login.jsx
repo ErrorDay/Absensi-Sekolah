@@ -32,7 +32,7 @@ export default function Login() {
       >
         <div className="flex flex-col items-center mb-6">
           <img
-            src="/logo-sekolah.png"
+            src={`${process.env.PUBLIC_URL}/SMAIT Al Haraki crop.png`}
             alt="Logo Sekolah"
             className="w-14 h-14 object-contain mb-2"
           />

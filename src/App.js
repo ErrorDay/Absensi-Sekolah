@@ -50,7 +50,12 @@ function MainApp() {
       <header className="sticky top-0 z-40 bg-white border-b border-[#E5E7EB]">
         <div className="max-w-[1600px] mx-auto px-6 flex items-center gap-8 h-16">
           <div className="flex items-center gap-3 pr-4">
-            <img src="/logo-sekolah.png" alt="Logo Sekolah" className="w-10 h-10 object-contain" data-testid="school-logo" />
+            <img
+              src={`${process.env.PUBLIC_URL}/SMAIT Al Haraki crop.png`}
+              alt="Logo Sekolah"
+              className="w-10 h-10 object-contain"
+              data-testid="school-logo"
+            />
             <div>
               <p className="font-heading font-bold text-[15px] leading-tight text-[#111827]">SI-PRESENSI</p>
               <p className="text-[11px] text-[#6B7280] leading-tight">SMAIT AL HARAKI</p>
